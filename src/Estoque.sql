@@ -1,0 +1,11 @@
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    quantidade_estoque INT NOT NULL DEFAULT 0,
+    tam_p INT NOT NULL DEFAULT 0,
+    tam_m INT NOT NULL DEFAULT 0,
+    tam_g INT NOT NULL DEFAULT 0,
+    tam_gg INT NOT NULL DEFAULT 0,
+    tam_xg INT NOT NULL DEFAULT 0
+);
